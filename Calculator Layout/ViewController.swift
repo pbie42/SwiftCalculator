@@ -64,6 +64,7 @@ class ViewController: UIViewController {
     }
     @IBAction func equalsPressed(_ sender: UIButton) {
         if (num1 != "" && sign != "" && num2 != "") {
+//            Tam - Do I use the exclamations like this?
             let intNum1 : Double = Double(num1)!
             let intNum2 : Double = Double(num2)!
             var answer : Double
